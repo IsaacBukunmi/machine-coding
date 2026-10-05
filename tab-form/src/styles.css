@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+}
+
+.tabs-container{
+  display:flex
+}
+
+.tab-item{
+  border: 1px solid black;
+  padding:10px;
+  cursor: pointer;
+}
+
+.tabs-content-container{
+  border: 1px solid black;
+  padding: 10px 15px;
+  height:300px;
+}
+
+small{
+  display: block;
+  color:red;
+  margin-top:4;
+}
