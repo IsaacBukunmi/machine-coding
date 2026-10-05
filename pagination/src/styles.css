@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.products-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.product-card {
+  border: 1px solid #000;
+  width: 200px;
+  padding: 10px;
+}
+
+.product-card img {
+  width: 180px;
+  height: auto;
+}
+
+.product-card p {
+  text-align: center;
+}
+
+.page-number-ctn {
+  margin-top: 20px;
+  display: flex;
+  gap: 3px;
+  justify-content: center;
+}
+
+.number-btn {
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+
+.number-btn.active {
+  background-color: aqua;
+}
